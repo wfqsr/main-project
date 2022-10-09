@@ -1,0 +1,44 @@
+.about {
+    color: #060606;
+}
+
+
+.about__item::before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 517px;
+    height: 535px;
+    background: url("./../img/gates.png") center center / cover no-repeat;
+}
+
+.about__desc {
+    background: url("./../img/mountains.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    padding: 72px 180px 45px 84px;
+    margin-left: 374px;
+    margin-top: -430px;
+}
+
+.about__title {
+    font-size: 36px;
+    line-height: 49px;
+    color: black;
+    margin-bottom: 47px;
+}
+
+.about__text {
+    margin-bottom: 51px;
+    line-height: 27px;
+
+}
+
+.about__btn {
+    background-color: red;
+    padding: 20px 46px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #fff;
+}
