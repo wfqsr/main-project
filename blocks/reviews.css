@@ -1,0 +1,234 @@
+.reviews{
+    column-count: 2;
+    column-gap: 27px;
+    margin-bottom: 75px;
+}
+
+.reviews__item{
+    margin-bottom: 17px;
+}
+
+.review{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 28px;
+    background: #F4F5F5;
+}
+
+.avatar{
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+}
+
+.review__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.review__user--blue{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2E77A4;
+    margin-bottom: 11px;
+    padding-left: 22px;
+}
+
+.review__user{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1A1B1E;
+    margin-bottom: 11px;
+    text-decoration: none;
+    padding-left: 22px;
+}
+
+.review__user--blue::after{
+    content: url("../img/vk-blue\ 1.png");
+    height: 29px;
+    padding-left: 8px;
+}
+
+.review__user::after{
+    content: url("../img/vk-blue\ 1.png");
+    height: 29px;
+    padding-left: 8px;
+}
+
+
+.review__tags{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 22px;
+}
+
+.tag{
+    font-size: 13px;
+    color: #303030;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background: #E7E7E7;
+}
+
+.tag--bg--green{
+    background: #B9EAE4;
+}
+
+.review__title{
+        font-size: 30px;
+        font-weight: 700;
+        color: #1A1B1E;
+        margin-bottom: 13px;
+}
+
+.review__content-text{
+    color: #818181;
+    margin-bottom: 50px;
+}
+
+.review__date{
+    font-size: 14px;
+    color: #1A1B1E;
+    font-weight: 600;
+}
+
+.separator{
+    background: url("../img/Rectangle.png")  no-repeat;
+    background-size: 100%;
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 62px;
+}
+
+
+
+.separator__content{
+    max-width: 594px;
+}
+
+.separator__title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65.37px;
+    color:#FFFFFF;
+}
+
+.separator__img{
+position: absolute;
+margin-bottom: -26px;
+    margin-left: 1008px;
+}
+
+.couple__img{
+    width: 487px;
+    height: 341px;
+}
+
+.section__form{
+    background:  #F4F5F5;
+}
+
+.form__row{
+    display: flex;
+    margin-bottom: 26px;
+
+}
+
+.form__input{
+    flex: 1;
+    margin-right: 28px;
+    border-radius: 5px;
+    border: 1px;
+    border-style: solid;
+    background: #FFFFFF;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+
+}
+
+.form__input:focus{
+    border: 1px solid #F5170E;
+}
+
+.form__input::placeholder{
+    color: #666666;
+}
+
+.form__input:last-child{
+       margin-right: 0;
+}
+
+.form__input--textarea{
+    height: 235px;
+    color: 
+    #666666;
+
+}
+
+.form__controls{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.form__title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65.37px;
+    color: #1A1B1E;
+    margin-bottom: 57px;
+
+}
+.form__controls-title{
+    width: 40%;
+}
+
+.controls{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.control__item{
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+}
+
+.controls__elem{
+    cursor: pointer;
+
+}
+
+.controls__checkbox:checked ~ .controls__tag{
+background: #B9EAE4;
+}
+
+.controls__checkbox{
+    display: none;
+}
+
+.btn--color--grey{
+    background: #2B2B2B;
+    color: #FFFFFF;
+
+}
+.form__btns{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 96px;
+}
+
+.form__btn{
+    margin-right: 17px;
+}
+.form__btn:last-child{
+    margin-right: 0;
+}

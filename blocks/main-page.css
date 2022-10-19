@@ -1,0 +1,38 @@
+.container--hero {
+    margin-bottom: 268px;
+}
+
+
+.hero {
+    width: 511px;
+}
+
+.hero__title {
+
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 98px;
+    margin-bottom: 36px;
+}
+
+.hero__description {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 38px;
+}
+
+.hero__btn {
+    background-color:#F5170E;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 18px 40px;
+    border-radius: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}

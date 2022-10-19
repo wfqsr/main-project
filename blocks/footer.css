@@ -1,0 +1,87 @@
+.footer {
+    height: 146px;
+    position: relative;
+}
+
+.footer>.container {
+
+    margin-top: 86px;
+    padding-top: 58px;
+    border-top: #122931 solid 2px;
+}
+
+.nav__list {
+    margin-top: 20px;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 9px;
+
+}
+
+
+.socials__item :last-child {
+    margin-right: 0px;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+
+.socials__item--icon--telegram {
+
+    background: url("../img/sprite.png") -122px -10px;
+}
+
+.socials__item--icon--vk .socials__link {
+    background: url("../img/sprite.png")  -66px -122px;
+}
+
+.socials__item--icon--facebook .socials__link {
+    background: url("../img/sprite.png")-10px -122px;
+}
+
+.socials__item--icon--instagram .socials__link {
+    background: url("../img/sprite.png")-122px -66px;
+}
+
+
+.footer__logo {
+    position: absolute;
+    left: 0;
+    top: 46px;
+
+}
+
+.footer__nav {
+    position: absolute;
+    left: 174px;
+    top: 38px;
+}
+
+.footer__socials {
+    position: absolute;
+    right: 201px;
+    top: 50px;
+}
+
+.footer__contacts {
+    position: absolute;
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 6px;
+    top: 42px;
+    right: 0;
+}
+
+.footer__service{
+    color: #fff;
+    height: 132px;
+    position: relative;
+    background-color: #001821;
+}

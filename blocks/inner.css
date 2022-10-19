@@ -1,0 +1,30 @@
+.inner{
+    background-color: #F4F5F5;
+}
+
+.inner-section__title{
+    color: #1A1B1E;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;  
+    margin-bottom: 90px;
+    
+}
+
+.partners__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.partners__item:nth-child(4n){
+    margin-right: -46px;
+}
+
+.partners__item{
+    margin-right: 40px;
+    margin-bottom: 76px;
+
+}
