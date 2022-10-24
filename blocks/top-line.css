@@ -1,18 +1,19 @@
 .top-background {
-    background: url("./../img/headline\ 1.png") center top no-repeat;
-    background-size: 100%;
+   
 }
 
-.top__line{
+.top-line{
     min-height: 419px;
     color: #fff;
-    padding-bottom: 24px;
+    padding-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    background: url("./../img/headline\ 1.png") center top no-repeat;
 
 }
 
 .header__service {
-    padding-top: 0px;
-    margin-bottom: 13px;
+    margin-bottom: 43px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,7 +62,7 @@ margin-top: 63px;
 .breadcrumbs__item::after{
     content:"/";
     color: #9A9A9A;
-
+    margin: 0 3px;
 }
 
 .breadcrumbs__item:last-child::after{
