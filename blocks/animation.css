@@ -21,12 +21,12 @@
     margin-bottom: 52px;
 }
 
-.btn--color--red{
+.btn--welcome{
     font-size: 14px;
     border-radius: 35px;
     padding: 18px 58px;
 }
-.btn--color--red:hover{
+.btn--welcome:hover{
     background:#DA0100;
 }
 .central--asia{
