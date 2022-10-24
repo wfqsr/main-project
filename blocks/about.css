@@ -1,5 +1,6 @@
 .about {
     color: #060606;
+  
 }
 
 
@@ -7,8 +8,8 @@
     content: "";
     display: inline-block;
     vertical-align: top;
-    width: 517px;
-    height: 535px;
+    width: 490px;
+    height: 505px;
     background: url("./../img/gates.png") center center / cover no-repeat;
 }
 
@@ -17,20 +18,21 @@
     background-repeat: no-repeat;
     display: inline-block;
     vertical-align: top;
-    padding: 72px 180px 45px 84px;
-    margin-left: 374px;
-    margin-top: -430px;
+    padding: 70px 203px 65px 81px;
+    margin-left: 354px;
+    margin-top: -408px;
+    width: 785;
 }
 
 .about__title {
     font-size: 36px;
     line-height: 49px;
     color: black;
-    margin-bottom: 47px;
+    margin-bottom: 38px;
 }
 
 .about__text {
-    margin-bottom: 51px;
+    margin-bottom: 41px;
     line-height: 27px;
 
 }
