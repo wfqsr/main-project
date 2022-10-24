@@ -1,12 +1,12 @@
 .page-content{
     background: #fff;
     color: #303030;
-    padding: 50px 0px;
+    padding: 91px 0px 84px 0px;
     
     }
     
     .services{
-        margin-bottom: 60px;
+        margin-bottom: 65px;
     }
     
     .service{
@@ -21,12 +21,13 @@
 
     .service__img{
         width: 40.4%;
-        margin-right: 3%;
+        margin-right: 5%;
     
     }
     
     .service__content{
         flex: 1;
+        padding-top: 10px;
     
     }
     
@@ -39,7 +40,7 @@
     .service__title{
         font-size: 36px;
         font-weight: 700;
-        margin-bottom: 44px;
+        margin-bottom: 30px;
         color: #000000;
     
     }
@@ -50,23 +51,4 @@
     
     }
     
-    .btn--color--white{
-       
-        border-color: #F5170E;
-        border-style: solid;
-        border-width: 2px;
-        padding: 18px 42px;
-        color: #F5170E;
-        
-    }
-    
-    .btn--color--red{
-        border-color: #F5170E;
-        border-style: solid;
-        border-width: 2px;
-        padding: 18px 42px;
-        color: #fff;
-        background-color: #F5170E;
-    
-    }
     
