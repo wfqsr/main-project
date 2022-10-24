@@ -1,7 +1,7 @@
 .reviews{
     column-count: 2;
     column-gap: 27px;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 }
 
 .reviews__item{
@@ -11,7 +11,7 @@
 .review{
     display: inline-flex;
     flex-direction: column;
-    padding: 50px 28px;
+    padding: 50px 36px 30px 28px;
     background: #F4F5F5;
 }
 
@@ -90,6 +90,7 @@
 .review__content-text{
     color: #818181;
     margin-bottom: 50px;
+    line-height: 27px;
 }
 
 .review__date{
@@ -99,13 +100,12 @@
 }
 
 .separator{
-    background: url("../img/Rectangle.png")  no-repeat;
-    background-size: 100%;
+    background: url("../img/Rectangle.png") center center / cover no-repeat;
     min-height: 363px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 62px;
+
 }
 
 
@@ -132,8 +132,9 @@ margin-bottom: -26px;
     height: 341px;
 }
 
-.section__form{
+.section-form{
     background:  #F4F5F5;
+    padding: 59px 0px 90px;
 }
 
 .form__row{
@@ -146,8 +147,7 @@ margin-bottom: -26px;
     flex: 1;
     margin-right: 28px;
     border-radius: 5px;
-    border: 1px;
-    border-style: solid;
+    border: 1px solid transparent;
     background: #FFFFFF;
     padding: 22px 30px;
     font-size: 18px;
@@ -156,6 +156,7 @@ margin-bottom: -26px;
 }
 
 .form__input:focus{
+    outline: 0;
     border: 1px solid #F5170E;
 }
 
@@ -169,8 +170,8 @@ margin-bottom: -26px;
 
 .form__input--textarea{
     height: 235px;
-    color: 
-    #666666;
+    color: #666666;
+    resize: none;
 
 }
 
@@ -188,7 +189,9 @@ margin-bottom: -26px;
 
 }
 .form__controls-title{
-    width: 40%;
+    width: 38%;
+    font-size: 18px;
+    padding-top: 10px;
 }
 
 .controls{
@@ -216,14 +219,20 @@ background: #B9EAE4;
 }
 
 .btn--color--grey{
-    background: #2B2B2B;
+    background: #8E8E8E;
     color: #FFFFFF;
+    border-color:#8E8E8E ;
 
+}
+.btn--color--grey:hover{
+    background-color: #303030;
+    border-color: #303030;
+    transition: .3s;
 }
 .form__btns{
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 96px;
+
 }
 
 .form__btn{
