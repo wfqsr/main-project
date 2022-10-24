@@ -1,5 +1,5 @@
 .tours {
-    margin-bottom: 164px;
+    margin-bottom: 124px;
 }
 
 .tours__list{
@@ -68,12 +68,14 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 23px;
+    max-width: 85%;
 }
 
 
 .tours__feature {
     display: flex;
     justify-content: space-between;
+    align-items: center;
    
 }
 
@@ -81,7 +83,7 @@
     width: 36px;
     height: 26px;
     text-align: center;
-    vertical-align: middle;
+  
 
 }
 
@@ -95,7 +97,7 @@
     margin-left: 5px;
     line-height: 22px;
     color: #666666;
-    vertical-align: middle;
+    
 }
 
 .tours__item-desc {
