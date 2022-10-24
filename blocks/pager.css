@@ -17,14 +17,23 @@
 
 .pager__item{
     text-align: center;
+    margin-right: 2px;
 }
 
+.pager__item :last-child{
+    margin-right: 0;
+}
 .pager__item--active .pager__link {
     background: #fff;
     color: red;
 
 }
+.pager__item .pager__link:hover{
+    background: #fff;
+    color: red;
+    transition: .3s;
 
+}
 .pager__link {
     display: block;
     width: 32px;
@@ -38,12 +47,13 @@
 
 .pager--theme--light{
     color: #000000;
-    margin-left: 66px;
-    margin-bottom: 151px;
+    margin-left: 41px;
+   
     }
-    
-    .pager--theme--light .pager__item--active .pager__link{
+    .pager--theme--light .pager__link:hover{
         color: #fff;
         background: #F5170E;
-    
+        transition: .3s;
     }
+    
+ 
