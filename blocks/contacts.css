@@ -7,17 +7,18 @@
     text-decoration: none;
     font-size: 26px;
     display: block;
-    line-height: 1;
+    line-height: 1.4;
     margin-right: 0;
 }
 
 .contacts__description {
     font-size: 11px;
     color: #9A9A9A;
-    margin-top: 14px;
-    margin-right: 0;
+ margin-bottom: 5px;
+
 
 }
 .contacts__dropdown-title{
     font-size: 13px;
+    display: block;
 }
