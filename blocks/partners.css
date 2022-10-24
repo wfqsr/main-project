@@ -1,0 +1,30 @@
+.partners{
+    padding: 87px 0px 108px;
+}
+
+.partners__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 64px;
+}
+
+
+.partners__item{
+    margin-right: 74px;
+   flex-grow: 1;
+   filter: grayscale(1);
+   transition: filter 0.3s;
+
+}
+.partners__item:hover{
+    filter: grayscale(0);
+}
+
+.partners__item:nth-child(4n + 4){
+
+    margin-right: 0px;
+    margin-left: auto;
+    text-align: right;
+}

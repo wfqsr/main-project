@@ -1,0 +1,58 @@
+
+.btn {
+    display: inline-block;
+    padding: 18px 40px;
+    border-radius: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    transition: bacground-color .3s, color .3s, border-color .3s;
+}
+
+.hero__btn {
+    background-color:#F5170E;
+    color: #fff;
+    border-color: none;
+}
+
+.hero__btn:hover{
+    background-color: #DA0100;
+    transition: .3s;
+
+}
+
+.tours__item-btn:hover{
+    background-color: #F5170E;
+    color:  #FFFFFF;
+    transition: .3s;
+}
+
+.about__btn:hover{
+    background-color: #DA0100;
+    transition: .3s;
+}
+
+.btn--color--white{
+       
+    border-color: #F5170E;
+    border-style: solid;
+    border-width: 2px;
+    padding: 18px 42px;
+    color: #F5170E;
+    
+}
+
+.btn--color--white:hover{
+    border-color: #F5170E;
+    border-style: solid;
+    border-width: 2px;
+    padding: 18px 42px;
+    color: #fff;
+    background-color: #F5170E;
+    transition: .3s;
+
+}
+
+
